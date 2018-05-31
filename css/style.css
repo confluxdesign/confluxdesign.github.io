@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
 .layer {
   color: black;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -25px;
-  margin-top: -25px;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -25,6 +25,23 @@
   height: 33.33333333px;
   z-index: 10;
 }
+.discuss {
+  font-family: 'Fira Mono', monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 80px;
+  margin-left: -80px;
+}
+
+.discuss a {
+  color: black;
+  text-decoration: none;
+}
+.discuss a:hover {
+  text-decoration: underline;
+}
+
 .layer:after,
 .layer:before {
   content: "";
